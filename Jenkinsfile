@@ -15,7 +15,7 @@ pipeline {
       steps {
         echo 'deploy completed'
         timeout(time: 5, unit: 'SECONDS') {
-        sh 'sleep 5'
+        sh 'sleep 10'
 }
       }
     }
